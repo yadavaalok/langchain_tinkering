@@ -1,0 +1,18 @@
+To create an agent that asks the user for their name, location, and age before starting the conversation and continues to prompt the user until all the information is collected, you can follow these steps:
+
+
+• Initialize the tools: Set up the tools required for the agent, including the tool for interacting with the user.
+
+• Create the agent: Use the "Self-ask with search" agent type to create an agent that prompts the user for the required information.
+
+• Run the agent: Use the agent executor to invoke the agent and prompt the user for their name, location, and age.
+
+• Store the information: Store the user-provided information in the memory store for future reference during the conversation.
+
+
+
+
+For collecting personal details from the user, you can use the "Human as a tool" feature, which allows human input to guide the agent when it is confused. 
+This tool can prompt the user for their name, location, and age, and then proceed based on the user's input. 
+Additionally, you can use the "Self-ask with search" agent to obtain answers from a tool named "Intermediate Answer," which can be the user's input. 
+This allows the agent to ask questions and receive user-provided information as a response. 
